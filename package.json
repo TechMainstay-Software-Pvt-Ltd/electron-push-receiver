@@ -1,5 +1,5 @@
 {
-  "name": "electron-push-receiver",
+  "name": "@tmbill/electron-push-receiver",
   "version": "1.0.0",
   "description": "A module to receive FCM notifications in electron",
   "main": "src/index.js",
