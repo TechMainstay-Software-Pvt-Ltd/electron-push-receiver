@@ -14,6 +14,10 @@
     "electron-config": "^1.0.0",
     "@tmbill/push-receiver": "^1.0.0"
   },
+  "bugs": {
+    "url": "https://github.com/TechMainstay-Software-Pvt-Ltd/electron-push-receiverr/issues"
+  },
+  "homepage": "https://github.com/TechMainstay-Software-Pvt-Ltd/electron-push-receiver#readme",
   "devDependencies": {
     "eslint": "^8.46.0",
     "eslint-config-airbnb": "^19.0.4",

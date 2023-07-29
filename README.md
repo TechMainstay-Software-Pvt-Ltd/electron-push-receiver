@@ -9,7 +9,7 @@ See [this blog post](https://medium.com/@MatthieuLemoine/my-journey-to-bring-web
 ## Install
 
 ```
-npm i -S electron-fcm-push-receiver
+npm i -S  @tmbill/electron-push-receiver
 ```
 
 ## Usage
