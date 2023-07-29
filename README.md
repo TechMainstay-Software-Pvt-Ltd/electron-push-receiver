@@ -77,6 +77,4 @@ And then call it from your renderer process:
 const {ipcRenderer} = require('electron');
  ipcRenderer.send('startPushReceiver', null);
 ```
-## Example
 
-Thanks to [CydeSwype](https://github.com/CydeSwype), you can find an example project [here](https://github.com/CydeSwype/electron-fcm-demo).
