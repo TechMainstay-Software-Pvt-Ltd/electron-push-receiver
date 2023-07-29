@@ -1,0 +1,30 @@
+{
+  "name": "electron-push-receiver",
+  "version": "1.0.0",
+  "description": "A module to receive FCM notifications in electron",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/TechMainstay-Software-Pvt-Ltd/electron-push-receiver.git"
+  },
+  "author": "Sid Mane",
+  "license": "MIT",
+  "types": "src/electron-push-receiver.d.ts",
+  "dependencies": {
+    "electron-config": "^1.0.0",
+    "@tmbill/push-receiver": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.46.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "2.28.0",
+    "eslint-plugin-jsx-a11y": "6.7.1",
+    "eslint-plugin-react": "7.33.0",
+    "prettier": "^3.0.0",
+    "prettier-eslint": "^15.0.1",
+    "prettier-eslint-cli": "^7.1.0"
+  },
+  "peerDepencies": {
+    "electron": "^1.8.1"
+  }
+}
