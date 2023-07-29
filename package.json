@@ -7,7 +7,7 @@
     "type": "git",
     "url": "git+ssh://git@github.com/TechMainstay-Software-Pvt-Ltd/electron-push-receiver.git"
   },
-  "author": "Sid Mane",
+  "author": "MatthieuLemoine",
   "license": "MIT",
   "types": "src/electron-push-receiver.d.ts",
   "dependencies": {
