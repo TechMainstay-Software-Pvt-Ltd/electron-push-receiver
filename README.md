@@ -1,4 +1,4 @@
-# electron-fcm-push-receiver
+# electron-push-receiver
 
 A module to bring Web Push support to [Electron](https://github.com/electron/electron) allowing it to receive notifications from Firebase Cloud Messaging (FCM).
 
@@ -9,7 +9,7 @@ See [this blog post](https://medium.com/@MatthieuLemoine/my-journey-to-bring-web
 ## Install
 
 ```
-npm i -S  @tmbill/electron-push-receiver
+npm i -S @tmbill/electron-push-receiver
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ npm i -S  @tmbill/electron-push-receiver
 - In `main.js` / in main process :
 
 ```javascript
-const pushReceiver = require('electron-fcm-push-receiver');
+const pushReceiver = require('@tmbill/electron-push-receiver');
 
 // Call it before 'did-finish-load' with mainWindow a reference to your window
 pushReceiver.setupPushReceiver(mainWindow.webContents);
@@ -33,7 +33,7 @@ import {
   NOTIFICATION_SERVICE_ERROR,
   NOTIFICATION_RECEIVED as ON_NOTIFICATION_RECEIVED,
   TOKEN_UPDATED,
-} from 'electron-fcm-push-receiver/src/constants';
+} from 'electron-push-receiver/src/constants';
 
 // Listen for service successfully started
 ipcRenderer.on(NOTIFICATION_SERVICE_STARTED, (_, token) => // do something);
